@@ -81,7 +81,8 @@ There are 2 options for ingesting the data for the pipeline:
 
 1. Under Query, use the following Query.  The pipeline should match the pipeline name you used in step 3
     
-    ``` > SELECT * FROM c WHERE c.pipeline = 'YOUR-PIPELINE-NAME' AND c._ts > @HighWaterMark
+    ``` 
+    > SELECT * FROM c WHERE c.pipeline = 'YOUR-PIPELINE-NAME' AND c._ts > @HighWaterMark
     ```
     ![](images/Lab3LoadData.png)
 
