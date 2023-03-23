@@ -2,6 +2,7 @@
     {
       "Name": "Azure Immersion Workshop: Azure Well Architected Framework",
       "Language": "English",
+      "BaseURL": "https://github.com/sumitmalik51/sdp-workshop",
       "Files": [
         {
           "RawFilePath": "https://raw.githubusercontent.com/sumitmalik51/sdp-workshop/main/lab_instructions/lab_1.md",
