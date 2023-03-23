@@ -80,8 +80,9 @@ There are 2 options for ingesting the data for the pipeline:
 1. Keep the default for **Managed identity Authentication**, which is **None**. For **Databases** and **Collection** use the dropdown to select the same name as the Cosmos DB you selected at step 15. 
 
 1. Under Query, use the following Query.  The pipeline should match the pipeline name you used in step 3
-    > SELECT * FROM c WHERE c.pipeline = 'YOUR-PIPELINE-NAME' AND c._ts > @HighWaterMark
-
+    
+    ``` > SELECT * FROM c WHERE c.pipeline = 'YOUR-PIPELINE-NAME' AND c._ts > @HighWaterMark
+    ```
     ![](images/Lab3LoadData.png)
 
 
